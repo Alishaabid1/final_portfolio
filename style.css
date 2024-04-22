@@ -1,0 +1,309 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: navy;
+    height: 70px;
+    border-style:groove;
+    border-radius: 50px;
+    border-color: white;
+    background-image: url('E:/web/web exercises/assignment 4_1/w.jpeg');
+    position: sticky;
+    top:0;
+    z-index: 100;
+   
+   
+}
+
+.logo {
+    margin-top : 15px;
+    color:white;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 40px;
+    border-radius:30px;
+    background-color: rgb(32, 32, 32);
+    margin-bottom: 15px;
+    
+}
+.name {
+    color:deeppink;
+    padding-left: 10px; 
+    
+}
+  
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 50px; 
+    
+   
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    font-size: 20px;
+    margin-top: 20px;
+}
+nav a:hover, a.active{
+    color:rgb(252, 0, 126);
+    border-bottom: 3px solid rgb(4, 226, 226);
+
+}
+body{
+    background: linear-gradient(100deg, rgb(12, 12, 12) 0%, rgb(53, 52, 52) 100%);
+    background-size: cover;
+  
+
+}
+
+.home{
+    margin-top: 150px;
+    margin-left: 250px;
+    font-size: 25px;
+    color:white;
+   
+  
+}
+
+p{
+
+    font-size: 12px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.image {
+    position: absolute;
+    right: 200px;
+    top: 20%; /* Align the image vertically to the center */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 3px solid aqua;
+    box-shadow: 0px 0px 15px rgba(243, 242, 242, 0.5); 
+    
+   
+}
+.image:hover {
+    box-shadow: 0px 0px 150px rgba(243, 242, 242, 0.5); 
+}
+.education {
+    text-align: center; /* Center-align the section content */
+    margin-top: 200px;
+    margin-bottom: 20px;
+    
+    
+   
+}
+.education-content {
+    display: flex;
+    max-width: 800px; 
+    margin: 0 auto; /* Center-align the cards */
+    color:white;
+}
+
+.education-card {
+    height: 50px;
+    width: 45%; /* Set width for each card */
+    padding: 20px 30px;
+    box-shadow: 0 0 10px aqua; 
+    border-radius: 30px; 
+    color:white;
+    
+
+}
+.education h1{
+    
+    color: white;
+    background-image:url('E:/web/web exercises/assignment 4_1/w.jpeg');
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 3px solid aqua;
+    
+   
+}
+.education:hover{
+    box-shadow: 0 0 150px rgb(232, 238, 238); 
+    background-color: rgba(0, 0, 0, 0);
+}
+.education-card:hover {
+    background-color: rgb(170, 165, 165); 
+    box-shadow: 0 0 150px aqua; 
+}
+
+.left-card h2 {
+    margin-top: 0px; 
+}
+.right-card h2 {
+    margin-top: 0px; 
+}
+.right-card {
+    align-self: flex-end; 
+   
+}
+
+
+
+.vertical-line {
+    width: 4px; 
+    height: 300px; 
+    background-color: deeppink; 
+    margin: 0 40px; /* Add margin to separate the line from the cards */
+}
+
+
+
+.project {
+    margin-top: 200px; 
+    text-align: center; 
+    color:white;
+    margin-bottom: 200px;
+    background-image:url('E:/web/web exercises/assignment 4_1/sky.jpg');
+    
+}
+.project h1{
+    
+    color: white;
+    background-image:url('E:/web/web exercises/assignment 4_1/w.jpeg');
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 3px solid aqua;
+    
+    
+   
+}
+.project-card {
+    width: 400px;
+    height: 150px;
+    color:white;
+    background: linear-gradient(100deg, rgb(39, 39, 39) 0%, rgb(53, 52, 52) 100%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px aqua;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+   
+     
+}
+
+.project-card:nth-child(odd) {
+    margin-left: 450px; 
+}
+
+.project-card:nth-child(even) {
+    margin-left: 500px; 
+}
+.project:hover{
+   
+     background-color: rgba(8, 8, 8, 0.5);
+     background-image:none;
+     
+    
+}
+.project-card:hover {
+     
+    box-shadow: 0 0 150px  white; 
+    transform: scale(1.1);
+   
+}
+
+
+.languages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.language {
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    color: white;
+    margin-top: 20px;
+}
+.language h1{
+    
+    color: white;
+    background-image:url('E:/web/web exercises/assignment 4_1/w.jpeg');
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 3px solid aqua;
+    
+   
+}
+.language img {
+    width: 50px;
+    height: 50px;
+}
+
+.language span {
+    display: block;
+    margin-top: 5px;
+}
+
+.language:hover {
+    transform: scale(1.1);
+    background-color: rgb(48, 47, 47); 
+    box-shadow: 0 0 50px  white; 
+}
+
+.footer {
+    text-align: center; 
+    margin-top: 100px;
+    color: white;
+    background-image:url('E:/web/web exercises/assignment 4_1/sky.jpg');
+}
+.footer h1{
+    
+    color: white;
+    background-image:url('E:/web/web exercises/assignment 4_1/w.jpeg');
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 3px solid aqua;
+    
+    
+   
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block; 
+    margin: 0 20px; 
+    transition: transform 0.3s ease;
+}
+
+.footer img {
+    width: 30px; 
+    height: auto; 
+}
+.footer:hover{
+    background-color: rgb(48, 47, 47); 
+    transform: scale(1.1);
+    box-shadow: 0 0 50px  white; 
+
+
+}
